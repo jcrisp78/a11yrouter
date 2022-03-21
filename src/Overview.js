@@ -5,7 +5,8 @@ import * as actions from './actions';
 class Overview extends Component {
 
     componentDidMount() {
-        this.props.setA11yMessage('Navigated to overview page.')
+        this.props.setA11yMessage('Navigated to overview page.');
+        document.title = "Overview - a11yrouter";
     }
 
     render() {

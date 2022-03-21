@@ -5,7 +5,8 @@ import * as actions from './actions';
 class Contact extends Component {
 
     componentDidMount() {
-        this.props.setA11yMessage('Navigated to contact page.')
+        this.props.setA11yMessage('Navigated to contact page.');
+        document.title = "Contact - a11yrouter";
     }
 
     render() {
