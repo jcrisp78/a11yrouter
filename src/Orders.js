@@ -5,7 +5,8 @@ import * as actions from './actions';
 class Orders extends Component {
 
     componentDidMount() {
-        this.props.setA11yMessage('Navigated to orders page.')
+        this.props.setA11yMessage('Navigated to orders page.');
+        document.title = "Orders - a11yrouter";
     }
 
     render() {
